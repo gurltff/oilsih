@@ -1,0 +1,5 @@
+[
+  { "id": "well-a", "name": "Well-A", "lat": 23.5, "lon": 89.2, "depth_current": 3620, "formation_name": "Assam Sandstone" },
+  { "id": "well-b", "name": "Well-B", "lat": 23.7, "lon": 89.4, "depth_current": 3480, "formation_name": "Assam Sandstone" },
+  { "id": "well-c", "name": "Well-C", "lat": 23.2, "lon": 88.9, "depth_current": 2950, "formation_name": "Tripura Shale" }
+]
