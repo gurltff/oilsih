@@ -1,0 +1,23 @@
+[
+  { "id": 1,  "well_id": "well-a", "depth": 0,    "type": "info",         "date": "2025-11-02", "description": "Spud-in. 26\" conductor set.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 2,  "well_id": "well-a", "depth": 850,  "type": "info",         "date": "2025-11-09", "description": "13-3/8\" surface casing run and cemented.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 3,  "well_id": "well-a", "depth": 1920, "type": "kick",         "date": "2025-11-21", "description": "Minor gas kick, well shut in and circulated out.", "is_lesson_learned": true, "mitigation_note": "Raise mud weight to 1.32 SG before 1900m; pit-volume alarms at 2 bbl." },
+  { "id": 4,  "well_id": "well-a", "depth": 2600, "type": "info",         "date": "2025-12-04", "description": "9-5/8\" intermediate casing set.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 5,  "well_id": "well-a", "depth": 3180, "type": "tight_hole",   "date": "2025-12-15", "description": "Tight hole on connection, reamed through.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 6,  "well_id": "well-a", "depth": 3400, "type": "mud_loss",     "date": "2025-12-20", "description": "Lost circulation ~120 bbl/hr into fractured sandstone.", "is_lesson_learned": true, "mitigation_note": "Pre-treat with LCM pill (fine/medium CaCO3) 30m above 3400m; reduce ECD by lowering pump rate." },
+  { "id": 7,  "well_id": "well-a", "depth": 3620, "type": "info",         "date": "2026-01-03", "description": "Drilling ahead at current depth.", "is_lesson_learned": false, "mitigation_note": "" },
+
+  { "id": 8,  "well_id": "well-b", "depth": 0,    "type": "info",         "date": "2026-02-01", "description": "Spud-in.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 9,  "well_id": "well-b", "depth": 900,  "type": "info",         "date": "2026-02-08", "description": "Surface casing set.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 10, "well_id": "well-b", "depth": 1880, "type": "kick",         "date": "2026-02-19", "description": "Gas kick at similar interval to Well-A.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 11, "well_id": "well-b", "depth": 2650, "type": "info",         "date": "2026-03-02", "description": "Intermediate casing set.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 12, "well_id": "well-b", "depth": 3380, "type": "mud_loss",     "date": "2026-03-14", "description": "Partial losses ~40 bbl/hr, cured with LCM.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 13, "well_id": "well-b", "depth": 3450, "type": "stuck_pipe",   "date": "2026-03-17", "description": "Differentially stuck pipe after losses; jarred free in 9 hrs.", "is_lesson_learned": true, "mitigation_note": "Keep string moving on connections; minimise static time across depleted sand at 3400-3460m." },
+  { "id": 14, "well_id": "well-b", "depth": 3480, "type": "info",         "date": "2026-03-20", "description": "Drilling ahead at current depth.", "is_lesson_learned": false, "mitigation_note": "" },
+
+  { "id": 15, "well_id": "well-c", "depth": 0,    "type": "info",         "date": "2026-04-05", "description": "Spud-in.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 16, "well_id": "well-c", "depth": 780,  "type": "info",         "date": "2026-04-11", "description": "Surface casing set.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 17, "well_id": "well-c", "depth": 1650, "type": "info",         "date": "2026-04-22", "description": "Formation top: Tripura Shale.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 18, "well_id": "well-c", "depth": 2400, "type": "info",         "date": "2026-05-03", "description": "Intermediate casing set.", "is_lesson_learned": false, "mitigation_note": "" },
+  { "id": 19, "well_id": "well-c", "depth": 2950, "type": "info",         "date": "2026-05-15", "description": "Drilling ahead at current depth.", "is_lesson_learned": false, "mitigation_note": "" }
+]

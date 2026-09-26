@@ -1,0 +1,8 @@
+[
+  { "formation_zone": "Assam Sandstone", "risk_type": "mud_loss",   "severity_level": 3 },
+  { "formation_zone": "Assam Sandstone", "risk_type": "stuck_pipe", "severity_level": 4 },
+  { "formation_zone": "Assam Sandstone", "risk_type": "kick",       "severity_level": 5 },
+  { "formation_zone": "Assam Sandstone", "risk_type": "tight_hole", "severity_level": 2 },
+  { "formation_zone": "Tripura Shale",   "risk_type": "tight_hole", "severity_level": 2 },
+  { "formation_zone": "*",               "risk_type": "info",       "severity_level": 0 }
+]

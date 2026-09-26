@@ -1,10 +1,15 @@
 // Thin API client. Every successful GET is cached in localStorage so the
 // Field view can still render the last-known data if the network drops.
+import { mockRequest } from './mockApi';
+
+// Standalone builds (static hosting) answer API calls in the browser.
+const STANDALONE = process.env.REACT_APP_STANDALONE === 'true';
 const CACHE_PREFIX = 'nwis-cache:';
 // Empty in production builds: the API is served from the same origin.
 const API = process.env.REACT_APP_API_URL || '';
 
 export async function get(path) {
+  if (STANDALONE) return { data: mockRequest(path), stale: false };
   try {
     const res = await fetch(API + path);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -22,6 +27,7 @@ export async function get(path) {
 }
 
 export async function send(path, method, body) {
+  if (STANDALONE) return mockRequest(path, method, body);
   const res = await fetch(API + path, {
     method,
     headers: { 'Content-Type': 'application/json' },
