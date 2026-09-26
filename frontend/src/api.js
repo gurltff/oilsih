@@ -1,7 +1,8 @@
 // Thin API client. Every successful GET is cached in localStorage so the
 // Field view can still render the last-known data if the network drops.
 const CACHE_PREFIX = 'nwis-cache:';
-const API = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+// Empty in production builds: the API is served from the same origin.
+const API = process.env.REACT_APP_API_URL || '';
 
 export async function get(path) {
   try {

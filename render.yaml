@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nwis
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/wells

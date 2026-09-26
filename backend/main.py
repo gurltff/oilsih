@@ -127,3 +127,11 @@ def tag_lesson(event_id: int, body: LessonIn):
             e["mitigation_note"] = body.mitigation_note
             return e
     raise HTTPException(404, "Unknown event")
+
+
+# In the Docker image the built React app lives next to the API; serve it at /
+# (mounted last so /api/* routes take precedence).
+STATIC = Path(__file__).parent / "static"
+if STATIC.is_dir():
+    from fastapi.staticfiles import StaticFiles
+    app.mount("/", StaticFiles(directory=STATIC, html=True), name="frontend")

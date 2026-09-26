@@ -2,7 +2,13 @@
 
 A tool that keeps a record of past well-drilling events and warns about risks seen at the same depth in nearby offset wells. The frontend uses React 18.2 and Leaflet. A FastAPI backend serves mock JSON. Edits are kept in memory only.
 
-## Run
+## Deploy
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/gurltff/oilsih)
+
+One Docker service (see `Dockerfile` and `render.yaml`) builds the React app and serves it with the FastAPI API from the same URL. The same image runs on Railway, Fly.io or any Docker host: `docker build -t nwis . && docker run -p 8000:8000 nwis`.
+
+## Run locally
 
 ```bash
 # backend (terminal 1)
